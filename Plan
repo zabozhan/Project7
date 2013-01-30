@@ -1,0 +1,22 @@
+Plan
+1) Writing structure to files as binary data means that
+we can no longer use dynamically-allocated artist
+and title names.
+If we use fwrite and fread we can't use dyanmicly storage (use arrays!)
+
+2) Every time the menu is displayed, the program should also show
+ a.the name of the current file (if there is one) and 
+ b.how many records are being currently stored in memory.
+
+3) Ensure that the "Save" and "Save as" options promt for confirmation
+if the file already exists. The "Append" option can create a new file if necessary.
+
+4) Allow the program to take an optional command-line parameter - 
+the name of a file that contains CD details.
+
+5) We never want to lose data, so ensure that if the user attempts to read a list from a file or create a new list (or exit the program) while unsaved CDs are in the current list, then the program will ask the user if they are sure they want to proceed.
+
+6) Ensure that all functions that do not return a value are made VOID.
+7) Use the ATEXIT functionality to provide some sort of goodbye message.
+
+Need to follow the list to do
