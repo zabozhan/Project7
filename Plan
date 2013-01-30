@@ -18,5 +18,3 @@ the name of a file that contains CD details.
 
 6) Ensure that all functions that do not return a value are made VOID.
 7) Use the ATEXIT functionality to provide some sort of goodbye message.
-
-Need to follow the list to do
